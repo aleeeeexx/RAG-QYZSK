@@ -1,0 +1,23 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# 生成的索引与中间产物
+data/parsed/
+data/chunked/
+data/vector_db/
+data/bm25_db/
+rag_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# WSL 跨盘元数据
+*:Zone.Identifier
