@@ -18,6 +18,7 @@ rag_data/
 .idea/
 .vscode/
 *.swp
+.env
 
 # WSL 跨盘元数据
 *:Zone.Identifier
