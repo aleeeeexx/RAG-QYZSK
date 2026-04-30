@@ -62,7 +62,7 @@ RAG-hxyl/
 ```
 
 
-##产物总览
+## 产物总览
 ```
   RAG-hxyl/
   ├── .env                       DashScope + MinerU API key
