@@ -61,11 +61,9 @@ RAG-hxyl/
 └── requirements.txt
 ```
 
-详见 [`/home/alex/.claude/plans/tingly-marinating-crescent.md`](file:///home/alex/.claude/plans/tingly-marinating-crescent.md)
 
-
-项目总览
-
+##产物总览
+```
   RAG-hxyl/
   ├── .env                       DashScope + MinerU API key
   ├── requirements.txt           18 个依赖
@@ -98,3 +96,4 @@ RAG-hxyl/
       ├── smoke_test.py          P1
       ├── test_retrieval.py      P4
       └── test_pipeline.py       P5
+```
