@@ -33,7 +33,7 @@ st.markdown(
     """
     <div style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%);
                 padding: 22px 28px; border-radius: 12px; margin-bottom: 16px;">
-      <h2 style="color: white; margin: 0;">📚 核心医疗 · 企业知识库问答</h2>
+      <h2 style="color: white; margin: 0;">企业知识库问答</h2>
       <div style="color: #cbd5e1; font-size: 14px; margin-top: 4px;">
         混合检索(向量+BM25) · LLM 重排 · 父文档检索 · Qwen 推理 · 答案溯源
       </div>

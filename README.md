@@ -32,7 +32,28 @@ python ingest.py
 
 # 5. 启动 UI(P6 完成后)
 streamlit run app_streamlit.py
+# 默认访问地址:http://localhost:8501
+# 可选参数:--server.port 8080  指定端口
+#         --server.headless true  不自动弹出浏览器
 ```
+
+### 后续启动(已安装过依赖)
+
+```bash
+cd "/RAG-qyzsk"
+source venv/bin/activate          # 激活虚拟环境
+streamlit run app_streamlit.py    # 启动前端
+# Ctrl+C 停止;退出虚拟环境:deactivate
+```
+
+### 常见问题
+
+- `streamlit: command not found` —— 未激活虚拟环境,执行 `source venv/bin/activate`
+- `Virtual environment directory '...' does not exist` —— venv 路径失效(项目被重命名/复制),需删除重建:
+  ```bash
+  rm -rf venv && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+  ```
+- `ensurepip is not available` —— 缺 venv 包:`sudo apt install python3.10-venv -y`
 
 ## 目录结构
 
